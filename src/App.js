@@ -4,6 +4,7 @@ import Logout from "./components/Logout";
 import Login from "./components/Login";
 import TaskInput from "./components/TaskInput";
 import TaskList from "./components/TaskList";
+import Weather from "./components/Weather";
 
 function App() {
   const isAuthenticated = useSelector((state) => state.user.isAuthenticated);
@@ -13,7 +14,8 @@ function App() {
       {isAuthenticated ? (
         <>
           <Logout />
-          <div className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl p-5">
+          <div className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-3xl p-5">
+            <Weather />
             <TaskInput />
             <TaskList />
           </div>

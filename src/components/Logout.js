@@ -10,7 +10,7 @@ const Logout = () => {
     };
 
     return (
-        <div className="absolute top-5 right-5 sm:top-7 sm:right-7 md:top-8 md:right-10">
+        <div className="absolute top-5 right-5 sm:top-7 sm:right-7 md:top-8 md:right-10 lg:top-10 lg:right-12 z-50">
             <button 
                 onClick={handleLogout} 
                 className="px-4 py-2 text-sm sm:text-base bg-red-500 text-white rounded-lg shadow-md hover:bg-red-600 transition-all"
