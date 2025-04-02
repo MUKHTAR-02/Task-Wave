@@ -8,10 +8,12 @@ import Weather from "./components/Weather";
 
 function App() {
   const isAuthenticated = useSelector((state) => state.user.isAuthenticated);
+  const isUser = useSelector((state) => state.user.user);
+  const isPassword = useSelector((state) => state.user.password);
 
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-      {isAuthenticated ? (
+      {isAuthenticated && isUser && isPassword ? (
         <>
           <Logout />
           <div className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-3xl p-5">
