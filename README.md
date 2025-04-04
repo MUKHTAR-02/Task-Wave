@@ -74,7 +74,7 @@ npm start
 - Here are some screenshots of the app in action:
 
 ### Login Page
-![Login Page](https://github.com/MUKHTAR-02/Task-Wave/blob/main/public/screenshots/login-page.png?raw=true)
+![Login Page](https://github.com/MUKHTAR-02/Task-Wave/blob/main/public/screenshots/login-page.jpg)
 
 ### Task Management
 ![Task List](https://github.com/MUKHTAR-02/Task-Wave/blob/main/public/screenshots/task-management.png?raw=true)
